@@ -1,0 +1,40 @@
+{
+    "name": "nw-framework",
+    "description": "A framework for Node Webkit",
+    "version": "0.0.0",
+    "main": "./main",
+    "dependencies": {
+        "async": "0.2.9",
+        "underscore": "1.5.2"
+    },
+    "devDependencies": {
+        "chai": "*",
+        "jshint": "*",
+        "mocha": "*"
+    },
+    "author": "Simon Emms <simon@simonemms.com>",
+    "contributors": [{
+        "name": "Simon Emms",
+        "email": "simon@simonemms.com"
+    }],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/riggerthegeek/nw-framework.git"
+    },
+    "bugs": {
+        "url": "https://github.com/riggerthegeek/nw-framework/issues"
+    },
+    "licence": "GPL-3.0",
+    "scripts": {
+        "test": "jshint ./ && mocha test --colors --reporter spec --recursive"
+    },
+    "jshintConfig": {
+        "camelcase": true,
+        "curly": true,
+        "eqeqeq": true,
+        "strict": false,
+        "trailing": true,
+        "undef": false,
+        "unused": false
+    }
+}
