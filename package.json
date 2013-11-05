@@ -2,9 +2,10 @@
     "name": "nw-framework",
     "description": "A framework for Node Webkit",
     "version": "0.0.0",
-    "main": "./main",
+    "main": "./lib/main",
     "dependencies": {
         "async": "0.2.9",
+        "nwglobal": "0.0.1",
         "underscore": "1.5.2"
     },
     "devDependencies": {
